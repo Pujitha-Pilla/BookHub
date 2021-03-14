@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="about">About</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="about_the_book">About the Book</string>
+    <string name="action_sort">Sort</string>
+</resources>

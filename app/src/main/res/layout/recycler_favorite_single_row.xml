@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="10dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/llFavoriteCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/default_book_cover"
+        android:id="@+id/img_bookImage"
+        android:scaleType="fitCenter"
+        android:background="#f5f5f5"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:textAlignment="center"
+        android:id="@+id/txt_bookName"
+        android:textSize="18sp"
+        android:text="Book Name" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:textAlignment="center"
+        android:id="@+id/txt_bookAuthor"
+        android:textSize="14sp"
+        android:text="Book Author"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:textAlignment="center"
+        android:id="@+id/txt_bookPrice"
+        android:textSize="14sp"
+        android:text="200" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:textAlignment="center"
+        android:id="@+id/txt_bookRating"
+        android:textSize="14sp"
+        android:drawableLeft="@drawable/ic_rating"
+        android:drawablePadding="5dp"
+        android:text="4.5" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
